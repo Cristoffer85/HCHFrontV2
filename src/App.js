@@ -53,8 +53,8 @@ function App() {
   const handleSaveChanges = async (userId) => {
     try {
       const updatedProfile = {
-        ...updateProfile, // Include any existing values that were not updated
-        ...updatedValues // Include the updated values
+        ...updateProfile,
+        ...updatedValues
       };
       await axios.put(`/api/userprofiles/${userId}`, updatedProfile);
       const updatedUserProfiles = userProfiles.map(profile => {

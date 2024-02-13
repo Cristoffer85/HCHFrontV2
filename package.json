@@ -38,5 +38,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://honeycombback-env.eba-7gcu2wx7.us-west-2.elasticbeanstalk.com"
+  "proxy": "http://honeycombback-env.eba-7gcu2wx7.us-west-2.elasticbeanstalk.com/api"
 }

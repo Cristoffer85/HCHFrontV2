@@ -3,11 +3,15 @@
     margin-top: 20px;
 }
 
+.create-user-text {
+    color: white; /* Set the text color to white */
+}
+
 .user-item {
-    margin-bottom: 20px; /* Increase the margin for better separation between entries */
+    margin-bottom: 10px; /* Increase the margin for better separation between entries */
     padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 .user-data {

@@ -1,0 +1,44 @@
+/* UpdateUserForm.css */
+.update-user-form {
+    margin-bottom: 20px; /* Increase the margin for better separation between forms */
+}
+
+.update-user-form input {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.update-user-form .user-info {
+    margin-bottom: 10px; /* Add margin to separate each piece of user data */
+}
+
+.update-user-form .button-container {
+    display: flex;
+    justify-content: flex-start; /* Align buttons to the left */
+    margin-top: 10px; /* Add margin to separate buttons from input fields */
+}
+
+.update-user-form button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.update-user-form button.update-btn {
+    background-color: #28a745;
+    color: #fff;
+    margin-right: 5px; /* Add margin to separate buttons */
+}
+
+.update-user-form button.delete-btn {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.update-user-form button:hover {
+    opacity: 0.8; /* Reduce opacity on hover */
+}

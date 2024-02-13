@@ -1,0 +1,34 @@
+/* UserList.css */
+.user-list-container {
+    margin-top: 20px;
+}
+
+.user-item {
+    margin-bottom: 20px; /* Increase the margin for better separation between entries */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.user-data {
+    margin-bottom: 10px; /* Add margin to separate each piece of user data */
+}
+
+.user-actions {
+    display: flex;
+    justify-content: flex-end; /* Align buttons to the right */
+    margin-top: 10px;
+}
+
+.user-actions button {
+    padding: 6px 12px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.user-actions button:hover {
+    background-color: #c82333;
+}

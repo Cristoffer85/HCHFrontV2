@@ -1,6 +1,6 @@
 // App.js
 import React from 'react';
-import UserList from './UserList';
+import UserList from './UserList/UserList';
 import './App.css'; // Import App.css for styling
 
 const App = () => {

@@ -1,8 +1,8 @@
 // UserList.js
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import UpdateUserForm from './UpdateUserForm';
-import AddUserForm from './AddUserForm'; // Import AddUserForm
+import UpdateUserForm from '../UpdateUser/UpdateUserForm';
+import AddUserForm from '../Adduser/AddUserForm'; // Import AddUserForm
 import './UserList.css'; // Import UserList.css for styling
 
 const UserList = () => {

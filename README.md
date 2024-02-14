@@ -42,6 +42,6 @@ Classmates from school, family, myself, Mighty Duck rubber duck and some chatGPT
 ![Static Badge](https://img.shields.io/badge/HTML_14%25-black)
 
 # Features
-- A simple, yet functional GUI of a User profiles page (you are an admin)
-- As an admin you have full CRUD functionality on every user profile.
-- Saves and updates data to a mongoDB remote server.
+- [x] A simple, yet functional GUI of a User profiles page (you are an admin)
+- [x] As an admin you have full CRUD functionality on every user profile.
+- [x] Saves and updates data to a mongoDB remote server.
